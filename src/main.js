@@ -2,12 +2,12 @@ const line = document.createElement("div");
 Object.assign(line.style, {
   position: "fixed",
   top: "0",
-  left: "45%",
-  width: "4%",
+  left: "0",
+  width: "10%",
   height: "2px",
-  background: "white",
+  background: "linear-gradient(90deg, transparent, #fff 50%, transparent)",
   zIndex: "999999",
-  animation: "loading 1s linear infinite",
+  animation: "loading 1.5s ease-in-out infinite",
 });
 
 function show() {
