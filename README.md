@@ -2,7 +2,9 @@
 
 ## A Firefox extension that displays a loading animation bar at the top of the screen while a page is loading.
 
-[ZenLoadBar](assets/ZenLoadBar.mp4)
+---
+
+<video src="./assets/ZenLoadBar.mp4" controls width="100%"></video>
 
 ## How it works
 
