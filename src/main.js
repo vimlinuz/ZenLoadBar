@@ -40,3 +40,11 @@ style.textContent = `
 
 document.head.appendChild(style);
 document.body.appendChild(line);
+
+async function reset(tab) {
+  await browser.scripting.removeCSS({
+    target: { tabId: tab.id },
+    css: hidePage,
+  });
+  await browser.tabs.sendMessage(tab.id, { command: "reset" });
+}
