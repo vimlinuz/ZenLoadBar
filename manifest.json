@@ -34,7 +34,9 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["./src/main.js"]
+      "css": ["./src/loading.css"],
+      "js": ["./src/main.js"],
+      "run_at": "document_start"
     }
   ]
 }

@@ -1,0 +1,8 @@
+@keyframes loading {
+  from {
+    left: 45%;
+  }
+  to {
+    left: 51%;
+  }
+}
