@@ -4,7 +4,7 @@
 
 ---
 
-<video src="./assets/ZenLoadBar.mp4" controls width="100%"></video>
+[ZenLoadBar demo](assets/ZenLoadBar.mp4)
 
 ## How it works
 
