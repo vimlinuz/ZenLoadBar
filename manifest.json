@@ -9,11 +9,11 @@
   },
 
   "homepage_url": "https://www.github.com/vimlinuz/ZenLoadBar",
-  "description": "loading animation in the center of screen",
+  "description": "A loading animation bar at the top of the screen.",
 
   "icons": {
-    "48": "icons/ZenLoadBar.png",
-    "96": "icons/ZenLoadBar.png"
+    "48": "icons/ZenLoadBar-48.png",
+    "96": "icons/ZenLoadBar-96.png"
   },
 
   "browser_specific_settings": {
